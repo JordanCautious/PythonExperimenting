@@ -1,13 +1,11 @@
 # This is a testing ground for Python code
-import time
 
-# Practice with Nested Loops
+# Practice with 2D Lists
 
-rows = int(input("How many rows?: "))
-columns = int(input("How many columns?: "))
-symbol = input("Enter a symbol to use: ")
+drinks = ["Coffee", "Soda", "Tea"]
+dinner = ["Pizza", "Hamburger", "Hotdog"]
+dessert = ["Cake", "Ice Cream"]
 
-for i in range(rows):
-    for j in range(columns):
-        print(symbol, end="")
-    print()
+food = [drinks, dinner, dessert]
+
+print(f" I would like {food[0][1]} from drinks, {food[1][1]} from dinner, and {food[2][0]} from desserts!")

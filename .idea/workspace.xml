@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b143fd59-82b6-4129-91f2-7f0bf4eed7c4" name="Changes" comment="String slicing">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b143fd59-82b6-4129-91f2-7f0bf4eed7c4" name="Changes" comment="Nested loops practice">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,13 +91,31 @@
       <option name="project" value="LOCAL" />
       <updated>1716923407779</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Practice with for loops and the time module">
+      <option name="closed" value="true" />
+      <created>1716929923985</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716929923985</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Nested loops practice">
+      <option name="closed" value="true" />
+      <created>1716930261182</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716930261182</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started a comprehensive Python Course" />
     <MESSAGE value="A basic program" />
     <MESSAGE value="String slicing" />
-    <option name="LAST_COMMIT_MESSAGE" value="String slicing" />
+    <MESSAGE value="Practice with for loops and the time module" />
+    <MESSAGE value="Nested loops practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nested loops practice" />
   </component>
 </project>
