@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b143fd59-82b6-4129-91f2-7f0bf4eed7c4" name="Changes" comment="Started a comprehensive Python Course">
+    <list default="true" id="b143fd59-82b6-4129-91f2-7f0bf4eed7c4" name="Changes" comment="A basic program">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -76,11 +76,20 @@
       <option name="project" value="LOCAL" />
       <updated>1716861417312</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="A basic program">
+      <option name="closed" value="true" />
+      <created>1716869340344</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716869340344</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started a comprehensive Python Course" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started a comprehensive Python Course" />
+    <MESSAGE value="A basic program" />
+    <option name="LAST_COMMIT_MESSAGE" value="A basic program" />
   </component>
 </project>
