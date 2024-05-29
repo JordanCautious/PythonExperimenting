@@ -1,16 +1,13 @@
 # This is a testing ground for Python code
 
-# Practice with keyword arguments
+# Practice with nested function calls
 
-def multiply(num1, num2):
-    return num1 * num2
+# This is a nested function call to its extreme. Not very Pythonic
+print(round(abs(float(input("Enter a whole positive number: ")))))
 
+# I feel like this method is better
+num = input("Enter a whole positive number: ")
 
-# Positional Arguments
-x = multiply(5, 10)
+num = round(abs(float(num)))
 
-# Keyword Arguments
-x2 = multiply(num2=10, num1=4)
-
-print(x)
-print(x2)
+print(num)
