@@ -1,12 +1,16 @@
 # This is a testing ground for Python code
 
-# Practice with functions
+# Practice with keyword arguments
 
-def hello(person, age):
-    print(f"Hello, {person}. You are {age} years old!")
+def multiply(num1, num2):
+    return num1 * num2
 
 
-names = {"Jordan": 23, "Brice": 22, "LeBron": 39}
+# Positional Arguments
+x = multiply(5, 10)
 
-for name, age in names.items():
-    hello(name, age)
+# Keyword Arguments
+x2 = multiply(num2=10, num1=4)
+
+print(x)
+print(x2)
