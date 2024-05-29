@@ -1,13 +1,12 @@
 # This is a testing ground for Python code
 
-# Practice with nested function calls
+# Practice with args
 
-# This is a nested function call to its extreme. Not very Pythonic
-print(round(abs(float(input("Enter a whole positive number: ")))))
+def add(*args):
+    sum = 0
+    for i in args:
+        sum += i
+    return sum
 
-# I feel like this method is better
-num = input("Enter a whole positive number: ")
 
-num = round(abs(float(num)))
-
-print(num)
+print(add(5, 5, 5, 5, 5))

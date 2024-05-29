@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b143fd59-82b6-4129-91f2-7f0bf4eed7c4" name="Changes" comment="Practice with keyword arguments">
+    <list default="true" id="b143fd59-82b6-4129-91f2-7f0bf4eed7c4" name="Changes" comment="Practice with nested function calls">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717014981435</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Practice with nested function calls">
+      <option name="closed" value="true" />
+      <created>1717015447608</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717015447608</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -143,6 +152,7 @@
     <MESSAGE value="Practice using and making 2D lists" />
     <MESSAGE value="Practice using and making functions" />
     <MESSAGE value="Practice with keyword arguments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice with keyword arguments" />
+    <MESSAGE value="Practice with nested function calls" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice with nested function calls" />
   </component>
 </project>
