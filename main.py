@@ -1,11 +1,12 @@
 # This is a testing ground for Python code
 
-# Practice with 2D Lists
+# Practice with functions
 
-drinks = ["Coffee", "Soda", "Tea"]
-dinner = ["Pizza", "Hamburger", "Hotdog"]
-dessert = ["Cake", "Ice Cream"]
+def hello(person, age):
+    print(f"Hello, {person}. You are {age} years old!")
 
-food = [drinks, dinner, dessert]
 
-print(f" I would like {food[0][1]} from drinks, {food[1][1]} from dinner, and {food[2][0]} from desserts!")
+names = {"Jordan": 23, "Brice": 22, "LeBron": 39}
+
+for name, age in names.items():
+    hello(name, age)
