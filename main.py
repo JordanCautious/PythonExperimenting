@@ -1,12 +1,15 @@
 # This is a testing ground for Python code
 
-# Practice with args
+# Practice with random module
+import random
 
-def add(*args):
-    sum = 0
-    for i in args:
-        sum += i
-    return sum
+x = random.randint(1,6)
+y = random.random()
 
+myList = ["Atlanta", "Miami", "New York"]
 
-print(add(5, 5, 5, 5, 5))
+z = random.choice(myList)
+
+print(x)
+print(y)
+print(z)
