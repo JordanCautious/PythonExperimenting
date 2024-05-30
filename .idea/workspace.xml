@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b143fd59-82b6-4129-91f2-7f0bf4eed7c4" name="Changes" comment="Practice with the random module">
+    <list default="true" id="b143fd59-82b6-4129-91f2-7f0bf4eed7c4" name="Changes" comment="Practice with Exceptions">
+      <change afterPath="$PROJECT_DIR$/messages.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -156,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717068408680</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Practice with Exceptions">
+      <option name="closed" value="true" />
+      <created>1717092428303</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717092428303</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -171,6 +180,7 @@
     <MESSAGE value="Practice with nested function calls" />
     <MESSAGE value="Practice with args in a function" />
     <MESSAGE value="Practice with the random module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice with the random module" />
+    <MESSAGE value="Practice with Exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice with Exceptions" />
   </component>
 </project>
