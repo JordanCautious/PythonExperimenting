@@ -1,41 +1,17 @@
 # This is a testing ground for Python code
 
-# Practice with Rock, Paper, Scissors in Python
-import random
+# Practice with Object-Oriented Programming in Python
 
-while True:
-    choices = ["Rock", "Paper", "Scissors"]
+from car import Car
 
-    computer = random.choice(choices)
-    player = None
+car1 = Car("Tesla", "Model Y", 2024, "White")
+car2 = Car("Tesla", "Model S", 2024, "Gray")
 
-    while player not in choices:
-        player = input("Rock, Paper, or Scissors?: ").capitalize()
+print(f"This is a {car1.color} {car1.year} {car1.make} {car1.model}!")
+print(f"This is a {car2.color} {car2.year} {car2.make} {car2.model}!")
 
-    print(f"The computer chose {computer}!")
-    print(f"The player chose {player}!")
+car1.drive()
+car2.drive()
 
-    if player == computer:
-        print("It's a tie!")
-    elif player == "Rock":
-        if computer == "Paper":
-            print("Computer wins!")
-        elif computer == "Scissors":
-            print("Player wins!")
-    elif player == "Paper":
-        if computer == "Scissors":
-            print("Computer wins!")
-        elif computer == "Rock":
-            print("Player wins!")
-    elif player == "Scissors":
-        if computer == "Rock":
-            print("Computer wins!")
-        elif computer == "Paper":
-            print("Player wins!")
-
-    play_again = input("Play again? (Y/N): ").capitalize()
-
-    if play_again != "Y":
-        break
-
-print("Bye!")
+car1.stop()
+car2.stop()
