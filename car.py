@@ -5,6 +5,8 @@ class Car:
         self.year = year
         self.color = color
 
+    wheels = 4
+
     def drive(self):
         print(f"This {self.color} {self.model} is driving")
 
