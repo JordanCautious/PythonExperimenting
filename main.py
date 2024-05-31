@@ -1,15 +1,46 @@
 # This is a testing ground for Python code
 
-# Practice with class variables
+# Practice with Inheritance
 
-from car import Car
+class Animal:
+    alive = True
+    animal = "Animal"
 
-car1 = Car("Tesla", "Model Y", 2024, "White")
-car2 = Car("Tesla", "Model S", 2024, "Gray")
+    def eat(self):
+        print(f"This {self.animal} is eating")
 
-# car1.wheels = 6
-# car2.wheels = 2
-# Car.wheels = 8
+    def sleep(self):
+        print(f"This {self.animal} is sleeping")
 
-print(f"This is a {car1.color} {car1.year} {car1.make} {car1.model}! It has {car1.wheels} wheels!")
-print(f"This is a {car2.color} {car2.year} {car2.make} {car2.model}! It has {car2.wheels} wheels!")
+
+class Rabbit(Animal):
+    animal = "Rabbit"
+
+    def run(self):
+        print(f"This {self.animal} is running")
+
+
+class Fish(Animal):
+    animal = "Fish"
+
+    def swim(self):
+        print(f"This {self.animal} is swimming")
+
+
+class Hawk(Animal):
+    animal = "Hawk"
+
+    def fly(self):
+        print(f"This {self.animal} is flying")
+
+
+rabbit = Rabbit()
+fish = Fish()
+hawk = Hawk()
+
+rabbit.run()
+fish.swim()
+hawk.fly()
+
+rabbit.eat()
+rabbit.sleep()
